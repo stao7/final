@@ -32,7 +32,7 @@ function setup() {
   v = createP("Score " + points);
   p = createP("Be careful of the big fish who may eat you and the game will restart!");
   createP("Highest Record " + record);
-
+  
   fish = new Fish();
   for(let i = 0; i < 20; i++){
     fish.addBubble(new Bubble(random(0, width), height));
