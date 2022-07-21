@@ -17,12 +17,14 @@ var die;
 var exp1;
 let p;
 let v;
+function preload(){
+  chomp = new Audio('./assets/Eat.mp3');
+  eat = new Audio('./assets/Eating.mp3');
+  levelup = new Audio('./assets/levelup.wav');
+  die = new Audio('./assets/dropitem.wav');
+  exp1 = new Audio('./assets/explode.wav');
+}
 function setup() {
-  chomp = createAudio('./assets/Eat.mp3');
-  eat = createAudio('./assets/Eating.mp3');
-  levelup = createAudio('./assets/levelup.wav');
-  die = createAudio('./assets/dropitem.wav');
-  exp1 = createAudio('./assets/explode.wav');
   num = 0;
   evo = 0;
   count_small_fish = 20;
