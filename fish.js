@@ -17,6 +17,13 @@ var die = new Audio('./assets/dropitem.wav');
 var exp1 = new Audio('./assets/explode.wav');
 let p;
 let v;
+function preload(){
+  chomp = new Audio('./assets/Eat.mp3');
+  eat = new Audio('./assets/Eating.mp3');
+  levelup = new Audio('./assets/levelup.wav');
+  die = new Audio('./assets/dropitem.wav');
+  exp1 = new Audio('./assets/explode.wav');
+}
 function setup() {
   num = 0;
   evo = 0;
