@@ -10,11 +10,11 @@ let count_big_fish = 3;
 let flag = false;
 let bombF = false;
 let x = 0;
-var chomp = new Audio('Eat.mp3');
-var eat = new Audio('Eating.mp3');
-var levelup = new Audio('Levelup.wav');
-var die = new Audio('dropitem.wav');
-var exp1 = new Audio('explode.wav');
+var chomp = new Audio('./assets/Eat.mp3');
+var eat = new Audio('./assets/Eating.mp3');
+var levelup = new Audio('./assets/Levelup.wav');
+var die = new Audio('./assets/dropitem.wav');
+var exp1 = new Audio('./assets/explode.wav');
 let p;
 let v;
 function setup() {
